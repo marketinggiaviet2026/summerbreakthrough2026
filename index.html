@@ -33,7 +33,7 @@
           },
           fontFamily: {
             "headline": ["Manrope", "sans-serif"],
-            "sans": ["Inter", "sans-serif"],
+            "body": ["Inter", "sans-serif"],
           },
           animation: {
             'blob': 'blob 7s infinite',
@@ -63,7 +63,6 @@
   </script>
   <style>
     body {
-      font-family: 'Inter', sans-serif;
       background-color: #ffffff;
       -webkit-font-smoothing: antialiased;
     }
@@ -209,11 +208,11 @@
     <div class="flex items-center gap-3">
       <img src="./logo.png" alt="Logo Gia Việt" class="h-10 md:h-12 w-auto object-contain" />
     </div>
-    <div class="hidden md:flex items-center gap-8 font-extrabold text-slate-600 text-xs uppercase tracking-widest">
-      <a href="#hero" class="hover:text-primary transition-colors">Trang chủ</a>
-      <a href="#pricing" class="hover:text-primary transition-colors">Học phí</a>
-      <a href="#schedule" class="hover:text-primary transition-colors">Lịch học</a>
-      <a href="#privileges" class="hover:text-primary transition-colors">Đặc quyền</a>
+    <div class="hidden lg:flex items-center gap-4 xl:gap-8 font-extrabold text-slate-600 text-xs uppercase tracking-widest">
+      <a href="index.html" class="hover:text-primary transition-colors text-primary">Trang chủ</a>
+      <a href="index.html#pricing" class="hover:text-primary transition-colors">Các Chương Trình Đào Tạo</a>
+      <a href="index.html#privileges" class="hover:text-primary transition-colors">Đặc quyền</a>
+      <a href="lich-khai-giang.html" class="hover:text-secondary transition-colors text-secondary">Lịch Khai Giảng</a>
     </div>
     <a href="https://zalo.me/0962460077" target="_blank"
       class="bg-secondary hover:bg-secondary-dark text-white px-6 py-2.5 rounded-full font-headline font-bold text-sm tracking-wide shadow-lg active:scale-95">
@@ -250,7 +249,9 @@
           <h1
             class="font-headline font-black text-[42px] md:text-[68px] leading-[1.05] text-[#002c66] mb-6 tracking-tight">
             VUI HÈ RỰC RỠ <br class="hidden lg:block" />
-            <span class="inline-block mt-1 pt-2 lg:pt-3 pb-1 bg-gradient-to-r from-[#002c66] to-[#1a4a99] bg-clip-text text-transparent">BỨT PHÁ TIẾNG ANH</span>
+            <span
+              class="inline-block mt-1 pt-2 lg:pt-3 pb-1 bg-gradient-to-r from-[#002c66] to-[#1a4a99] bg-clip-text text-transparent">BỨT
+              PHÁ TIẾNG ANH</span>
           </h1>
 
           <div
@@ -452,20 +453,20 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md transition-all">
                 <h4 class="font-bold text-slate-800 text-lg mb-2">EFT Foundation</h4>
-                <p class="text-slate-500 text-sm">Nền tảng vững chắc cho trung học cơ sở.</p>
+                <p class="text-slate-500 text-sm">Nền tảng vững chắc cho Trung học cơ sở</p>
               </div>
               <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md transition-all">
                 <h4 class="font-bold text-slate-800 text-lg mb-2">EFT Global Teens</h4>
-                <p class="text-slate-500 text-sm">Phát triển kỹ năng hội nhập toàn cầu.</p>
+                <p class="text-slate-500 text-sm">Phát triển kỹ năng hội nhập toàn cầu</p>
               </div>
               <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md transition-all">
                 <h4 class="font-bold text-slate-800 text-lg mb-2">Academic English</h4>
-                <p class="text-slate-500 text-sm">Tiếng Anh học thuật chuyên sâu.</p>
+                <p class="text-slate-500 text-sm">Tiếng Anh học thuật chuyên sâu</p>
               </div>
               <div
                 class="bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md transition-all border-b-4 border-secondary">
                 <h4 class="font-bold text-slate-800 text-lg mb-2">IELTS for Teens</h4>
-                <p class="text-slate-500 text-sm">Luyện thi IELTS dành riêng cho lứa tuổi Teen.</p>
+                <p class="text-slate-500 text-sm">Luyện thi IELTS dành riêng cho lứa tuổi Thiếu niên</p>
               </div>
             </div>
           </div>
@@ -544,140 +545,6 @@
       </div>
     </section>
 
-    <!-- Lịch Khai Giảng Section -->
-    <section id="schedule" class="py-20 px-4 bg-slate-50 border-t border-slate-100">
-      <div class="max-w-5xl mx-auto">
-        <div class="text-center mb-12">
-          <span class="text-secondary font-black tracking-widest text-base uppercase block mb-3">Cập nhật mới nhất</span>
-          <h2 class="font-headline font-black text-3xl md:text-4xl text-primary section-title uppercase">Lịch Khai Giảng Hè 2026</h2>
-        </div>
-        
-        <div class="bg-white rounded-[2rem] shadow-[0_20px_50px_rgba(0,44,102,0.08)] border border-slate-100 overflow-hidden">
-          <div class="overflow-x-auto">
-            <table class="w-full text-left border-collapse min-w-[700px]">
-              <thead>
-                <tr class="bg-gradient-to-r from-[#002c66] to-[#1a4a99] text-white">
-                  <th class="py-5 px-6 font-headline font-black text-sm md:text-base uppercase tracking-wider w-2/5">Khóa học</th>
-                  <th class="py-5 px-6 font-headline font-black text-sm md:text-base uppercase tracking-wider w-1/5">Ngày khai giảng</th>
-                  <th class="py-5 px-6 font-headline font-black text-sm md:text-base uppercase tracking-wider w-1/5">Giờ học</th>
-                  <th class="py-5 px-6 font-headline font-black text-sm md:text-base uppercase tracking-wider text-center w-1/5">Số tuần</th>
-                </tr>
-              </thead>
-              <tbody class="divide-y divide-slate-100 text-slate-700">
-                <!-- Group: Thiếu Nhi -->
-                <tr>
-                  <td colspan="4" class="py-3 px-6 font-bold text-[#002c66] text-sm uppercase tracking-wider bg-blue-50/80">
-                    <div class="flex items-center gap-2">
-                      <span class="material-symbols-outlined text-secondary text-xl">child_care</span>
-                      Tiếng Anh Thiếu Nhi
-                    </div>
-                  </td>
-                </tr>
-                <tr class="hover:bg-slate-50 transition-colors group">
-                  <td class="py-4 px-6 font-bold text-slate-800 group-hover:text-primary transition-colors">Family & Friends Starters A</td>
-                  <td class="py-4 px-6 font-semibold">16/06</td>
-                  <td class="py-4 px-6 font-semibold text-slate-500">17:45 – 19:15</td>
-                  <td class="py-4 px-6 text-center font-bold text-secondary">12 tuần</td>
-                </tr>
-                <tr class="hover:bg-slate-50 transition-colors group">
-                  <td class="py-4 px-6 font-bold text-slate-800 group-hover:text-primary transition-colors">Family & Friends 2A</td>
-                  <td class="py-4 px-6 font-semibold">16/06</td>
-                  <td class="py-4 px-6 font-semibold text-slate-500">17:45 – 19:15</td>
-                  <td class="py-4 px-6 text-center font-bold text-secondary">12 tuần</td>
-                </tr>
-                <tr class="hover:bg-slate-50 transition-colors group">
-                  <td class="py-4 px-6 font-bold text-slate-800 group-hover:text-primary transition-colors">First Friends 1A</td>
-                  <td class="py-4 px-6 font-semibold">20/06</td>
-                  <td class="py-4 px-6 font-semibold text-slate-500">7:45 – 9:15</td>
-                  <td class="py-4 px-6 text-center font-bold text-secondary">10 tuần</td>
-                </tr>
-                <tr class="hover:bg-slate-50 transition-colors group">
-                  <td class="py-4 px-6 font-bold text-slate-800 group-hover:text-primary transition-colors">Family & Friends 1A</td>
-                  <td class="py-4 px-6 font-semibold">20/06</td>
-                  <td class="py-4 px-6 font-semibold text-slate-500">15:00 – 17:00</td>
-                  <td class="py-4 px-6 text-center font-bold text-secondary">10 tuần</td>
-                </tr>
-
-                <!-- Group: Thiếu Niên -->
-                <tr>
-                  <td colspan="4" class="py-3 px-6 font-bold text-[#002c66] text-sm uppercase tracking-wider bg-blue-50/80 border-t border-blue-100">
-                    <div class="flex items-center gap-2">
-                      <span class="material-symbols-outlined text-secondary text-xl">school</span>
-                      Tiếng Anh Thiếu Niên
-                    </div>
-                  </td>
-                </tr>
-                <tr class="hover:bg-slate-50 transition-colors group">
-                  <td class="py-4 px-6 font-bold text-slate-800 group-hover:text-primary transition-colors">EFT – Global Teens 1A</td>
-                  <td class="py-4 px-6 font-semibold">20/06</td>
-                  <td class="py-4 px-6 font-semibold text-slate-500">9:30 – 11:30</td>
-                  <td class="py-4 px-6 text-center font-bold text-secondary">12 tuần</td>
-                </tr>
-                <tr class="hover:bg-slate-50 transition-colors group">
-                  <td class="py-4 px-6 font-bold text-slate-800 group-hover:text-primary transition-colors">EFT – Foundation 1</td>
-                  <td class="py-4 px-6 font-semibold">29/06</td>
-                  <td class="py-4 px-6 font-semibold text-slate-500">19:30 – 21:00</td>
-                  <td class="py-4 px-6 text-center font-bold text-secondary">11 tuần</td>
-                </tr>
-
-                <!-- Group: Người Lớn & IELTS -->
-                <tr>
-                  <td colspan="4" class="py-3 px-6 font-bold text-[#002c66] text-sm uppercase tracking-wider bg-blue-50/80 border-t border-blue-100">
-                    <div class="flex items-center gap-2">
-                      <span class="material-symbols-outlined text-secondary text-xl">workspace_premium</span>
-                      Tiếng Anh Người Lớn & IELTS
-                    </div>
-                  </td>
-                </tr>
-                <tr class="hover:bg-slate-50 transition-colors group">
-                  <td class="py-4 px-6 font-bold text-slate-800 group-hover:text-primary transition-colors">EFL A2 – Tối 357</td>
-                  <td class="py-4 px-6 font-semibold">09/06</td>
-                  <td class="py-4 px-6 font-semibold text-slate-500">18:30 – 20:30</td>
-                  <td class="py-4 px-6 text-center font-bold text-secondary">10 tuần</td>
-                </tr>
-                <tr class="hover:bg-slate-50 transition-colors group">
-                  <td class="py-4 px-6 font-bold text-slate-800 group-hover:text-primary transition-colors">EFL B1 – Tối 246</td>
-                  <td class="py-4 px-6 font-semibold">08/06</td>
-                  <td class="py-4 px-6 font-semibold text-slate-500">18:30 – 20:30</td>
-                  <td class="py-4 px-6 text-center font-bold text-secondary">12 tuần</td>
-                </tr>
-                <tr class="hover:bg-slate-50 transition-colors group">
-                  <td class="py-4 px-6 font-bold text-slate-800 group-hover:text-primary transition-colors">EFL B1+ – Tối 246</td>
-                  <td class="py-4 px-6 font-semibold">22/06</td>
-                  <td class="py-4 px-6 font-semibold text-slate-500">18:30 – 20:30</td>
-                  <td class="py-4 px-6 text-center font-bold text-secondary">12 tuần</td>
-                </tr>
-                <tr class="hover:bg-slate-50 transition-colors group">
-                  <td class="py-4 px-6 font-bold text-slate-800 group-hover:text-primary transition-colors">EFL B1+ – Tối 357</td>
-                  <td class="py-4 px-6 font-semibold">22/06</td>
-                  <td class="py-4 px-6 font-semibold text-slate-500">18:30 – 20:30</td>
-                  <td class="py-4 px-6 text-center font-bold text-secondary">12 tuần</td>
-                </tr>
-                <tr class="hover:bg-slate-50 transition-colors group">
-                  <td class="py-4 px-6 font-bold text-slate-800 group-hover:text-primary transition-colors">PRE-IELTS – Tối 246</td>
-                  <td class="py-4 px-6 font-semibold">29/06</td>
-                  <td class="py-4 px-6 font-semibold text-slate-500">18:30 – 20:30</td>
-                  <td class="py-4 px-6 text-center font-bold text-secondary">10 tuần</td>
-                </tr>
-                <tr class="hover:bg-slate-50 transition-colors group">
-                  <td class="py-4 px-6 font-bold text-slate-800 group-hover:text-primary transition-colors">IELTS 5.5 – Tối 246CN</td>
-                  <td class="py-4 px-6 font-semibold">29/06</td>
-                  <td class="py-4 px-6 font-semibold text-slate-500">18:30 – 20:30</td>
-                  <td class="py-4 px-6 text-center font-bold text-secondary">12 tuần</td>
-                </tr>
-                <tr class="hover:bg-slate-50 transition-colors group">
-                  <td class="py-4 px-6 font-bold text-slate-800 group-hover:text-primary transition-colors">IELTS 5.5 – Tối 357CN</td>
-                  <td class="py-4 px-6 font-semibold">29/06</td>
-                  <td class="py-4 px-6 font-semibold text-slate-500">18:30 – 20:30</td>
-                  <td class="py-4 px-6 text-center font-bold text-secondary">12 tuần</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- New Promotions Integrated Section -->
     <div class="max-w-6xl mx-auto my-20">
       <section class="py-16 px-4 bg-[#0f172a] relative overflow-hidden rounded-[3rem] shadow-2xl">
@@ -713,7 +580,7 @@
               <div class="mt-auto w-full">
                 <div class="font-black text-3xl text-primary mb-3 tracking-tight">Giảm 15%</div>
                 <p class="text-slate-500 text-sm font-medium mb-6">Học phí khi đăng ký và hoàn thành học phí trong thời
-                  gian khuyến mại.</p>
+                  gian khuyến mại</p>
                 <a href="https://zalo.me/0962460077" target="_blank"
                   class="block w-full py-3 rounded-xl bg-[#002c66] text-white font-bold hover:bg-blue-900 transition-all shadow-md">Nhận
                   ưu đãi ngay</a>
@@ -752,7 +619,7 @@
               <div class="mt-auto w-full">
                 <div class="font-black text-3xl text-emerald-600 mb-3 tracking-tight">Tặng 300.000đ</div>
                 <p class="text-slate-500 text-sm font-medium mb-6">Khi giới thiệu bạn mới thành công (HSD 12 tháng).
-                  Không cộng dồn ưu đãi.</p>
+                  Không cộng dồn ưu đãi</p>
                 <a href="https://zalo.me/0962460077" target="_blank"
                   class="block w-full py-3 rounded-xl bg-emerald-600 text-white font-bold hover:bg-emerald-700 transition-all shadow-md">Giới
                   thiệu ngay</a>
@@ -932,7 +799,8 @@
               <a href="tel:02923831000"
                 class="flex flex-1 w-full items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-red-500 py-4 sm:py-5 rounded-full transition-colors border border-red-500/50 whitespace-nowrap">
                 <span class="material-symbols-outlined text-lg text-red-500">call</span>
-                <span class="font-headline font-black text-base sm:text-lg tracking-widest text-red-500">0292.383.1000</span>
+                <span
+                  class="font-headline font-black text-base sm:text-lg tracking-widest text-red-500">0292.383.1000</span>
               </a>
             </div>
           </div>
@@ -958,7 +826,7 @@
           <span class="material-symbols-outlined text-secondary text-[20px]">location_city</span>
           <h4 class="font-bold text-slate-800 uppercase tracking-wide">Trụ sở chính</h4>
         </div>
-        <p class="mb-3 leading-relaxed">Số 39, đường Mậu Thân, Phường Ninh Kiều, TP. Cần Thơ</p>
+        <p class="mb-3 leading-relaxed">39 Đường Mậu Thân, Phường Ninh Kiều, TP. Cần Thơ</p>
         <a href="tel:02923831000" class="block font-bold text-secondary hover:text-primary transition-colors">0292 383
           1000</a>
         <a href="tel:02922209000" class="block font-bold text-secondary hover:text-primary transition-colors mt-1">0292
@@ -971,7 +839,7 @@
           <span class="material-symbols-outlined text-secondary text-[20px]">storefront</span>
           <h4 class="font-bold text-slate-800 uppercase tracking-wide">Chi nhánh 30/4</h4>
         </div>
-        <p class="mb-3 leading-relaxed">Số 545, đường 30 Tháng 4, Phường Tân An, TP. Cần Thơ</p>
+        <p class="mb-3 leading-relaxed">545 Đường 30/4, Phường Tân An, TP. Cần Thơ</p>
         <a href="tel:02923814000" class="block font-bold text-secondary hover:text-primary transition-colors">0292 381
           4000</a>
       </div>
@@ -982,7 +850,7 @@
           <span class="material-symbols-outlined text-secondary text-[20px]">storefront</span>
           <h4 class="font-bold text-slate-800 uppercase tracking-wide">Chi nhánh Bình Minh</h4>
         </div>
-        <p class="mb-3 leading-relaxed">Số 112-114, đường Lê Văn Vị, khóm 2, phường Cái Vồn, tỉnh Vĩnh Long</p>
+        <p class="mb-3 leading-relaxed">112 Đường Lê Văn Vị, Phường Cái Vồn, Vĩnh Long</p>
         <a href="tel:02706555000" class="block font-bold text-secondary hover:text-primary transition-colors">0270 655
           5000</a>
       </div>
@@ -993,7 +861,7 @@
           <span class="material-symbols-outlined text-secondary text-[20px]">storefront</span>
           <h4 class="font-bold text-slate-800 uppercase tracking-wide">Chi nhánh Ô Môn</h4>
         </div>
-        <p class="mb-3 leading-relaxed">Số 21, đường Trần Nguyên Hãn, phường Ô Môn, TP. Cần Thơ</p>
+        <p class="mb-3 leading-relaxed">21 Đường Trần Nguyên Hãn, Phường Ô Môn, TP. Cần Thơ (Hẻm Cơ Khí/Tài Vân)</p>
         <a href="tel:02926266000" class="block font-bold text-secondary hover:text-primary transition-colors">0292 626
           6000</a>
       </div>
@@ -1053,6 +921,17 @@
     setInterval(updateCountdown, 1000);
     updateCountdown();
   </script>
+
+  <!-- Sticky Promotion Widget -->
+  <a href="https://zalo.me/0962460077" target="_blank" class="fixed top-1/2 right-0 -translate-y-1/2 z-50 flex items-center group cursor-pointer transition-transform hover:-translate-x-2">
+    <div class="bg-gradient-to-l from-red-600 to-rose-500 text-white p-3 py-6 rounded-l-2xl shadow-[-5px_0_20px_rgba(219,20,50,0.3)] flex flex-col items-center gap-2 border-y border-l border-red-400">
+      <span class="material-symbols-outlined text-3xl animate-bounce">redeem</span>
+      <div class="writing-mode-vertical text-center font-headline font-black uppercase tracking-widest text-sm" style="writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(180deg);">
+        Ưu đãi 15% Học phí cho Học viên mới
+      </div>
+    </div>
+  </a>
+
 </body>
 
 </html>
